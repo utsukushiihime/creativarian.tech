@@ -56,7 +56,7 @@ const Banner = () => {
           <div className="col-lg-7">
             <div className="banner-one__content">
               <p className="banner-one__tag-line">
-                Welcome to Creativarian Tech <a href="#">free trial</a>
+                Welcome to Creativarian Tech <a href="#">Get Started</a>
               </p>
               <h3>
                 We help achieve <br /> biggest goals

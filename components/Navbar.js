@@ -30,7 +30,7 @@ export default class Navbar extends React.Component {
         sticky: false,
       });
     }
-  };
+  }
 
   mobileMenu = () => {
     //Mobile Menu Toggle
@@ -87,16 +87,21 @@ export default class Navbar extends React.Component {
                   <li className="scrollToLink">
                     <a href="#features">Features</a>
                   </li>
-                  <li className="scrollToLink">
+                  {/* <li className="scrollToLink">
                     <a href="#pricing">Pricing</a>
+                  </li> */}
+                  <li>
+                    <Link href="/portfolio">
+                      <a>Portfolio</a>
+                    </Link>
                   </li>
-                  <li className="scrollToLink">
+                  {/* <li className="scrollToLink">
                     <a href="#app-shots">App Screens</a>
                   </li>
                   <li className="scrollToLink">
                     <a href="#testimonials">Testimonials</a>
-                  </li>
-                  <li className="dropdown scrollToLink">
+                  </li> */}
+                  {/* <li className="dropdown scrollToLink">
                     <a href="#blog">Blog</a>
                     <ul>
                       <li>
@@ -105,17 +110,12 @@ export default class Navbar extends React.Component {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">
-                          <a>Portfolio</a>
-                        </Link>
-                      </li>
-                      <li>
                         <Link href="/blog-details">
                           <a>Blog Details</a>
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li className="scrollToLink">
                     <a href="#contact">Contact</a>
                   </li>

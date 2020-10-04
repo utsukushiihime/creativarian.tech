@@ -23,7 +23,7 @@ const Contact = () => {
                                     </div>
                                     <div className="contact-one__infos-content">
                                         <h3>Addresss</h3>
-                                        <p>20 Broklyn Street, New York. United States of <br/> America
+                                        <p>2924 Lucas Dr. <br/>Dallas, TX USA
                                         </p>
                                     </div>
                                 </div>
@@ -33,7 +33,7 @@ const Contact = () => {
                                     </div>
                                     <div className="contact-one__infos-content">
                                         <h3>Email</h3>
-                                        <p><a href="mailto:needhelp@zimed.com">needhelp@zimed.com</a>
+                                        <p><a href="mailto:info@creativarian.com">info@creativarian.com</a>
                                         </p>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@ const Contact = () => {
                                     </div>
                                     <div className="contact-one__infos-content">
                                         <h3>Phone</h3>
-                                        <p><a href="tel:666-888-0000">666 888 0000</a></p>
+                                        <p><a href="tel:469-751-7069">469 751 7069</a></p>
                                     </div>
                                 </div>
                             </div>
